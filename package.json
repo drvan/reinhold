@@ -1,0 +1,31 @@
+{
+  "name": "reinhold",
+  "version": "1.0.0",
+  "description": "A sentiment analysis bot for Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drvan/reinhold.git"
+  },
+  "keywords": [
+    "sentiment",
+    "analysis",
+    "node",
+    "discord"
+  ],
+  "author": "Ryan Van Antwerp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drvan/reinhold/issues"
+  },
+  "homepage": "https://github.com/drvan/reinhold#readme",
+  "dependencies": {
+    "bunyan": "^1.8.10",
+    "sentiment": "^4.0.0",
+    "sqlite3": "^3.1.8"
+  }
+}
