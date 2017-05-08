@@ -1,7 +1,5 @@
 'use strict'
 
-const sqlite3 = require('sqlite3')
-  .verbose();
 const pg = require('pg');
 const sentiment = require('sentiment');
 // const readline = require('readline');
